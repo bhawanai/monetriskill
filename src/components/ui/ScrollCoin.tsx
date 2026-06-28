@@ -1,7 +1,6 @@
 "use client";
 
 import { useScroll, useTransform, motion, useSpring } from "framer-motion";
-import { useRef } from "react";
 
 export function ScrollCoin() {
   const { scrollYProgress } = useScroll();

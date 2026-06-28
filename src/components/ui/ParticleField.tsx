@@ -57,7 +57,6 @@ export function ParticleField() {
         if (p.y < 0) p.y = height;
         if (p.y > height) p.y = 0;
 
-        const color = COLORS[Math.floor(Math.random() * COLORS.length > 0.98 ? COLORS.length - 1 : 0)];
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
         ctx.fillStyle = `rgba(${COLORS[0]},${p.alpha})`;

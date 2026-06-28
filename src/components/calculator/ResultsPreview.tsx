@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, RotateCcw, TrendingUp, Clock, Zap, CheckCircle2, ChevronRight } from "lucide-react";
+import { ExternalLink, RotateCcw, TrendingUp, Clock, Zap, CheckCircle2 } from "lucide-react";
 import type { QuizResult } from "@/lib/quiz-logic";
 
 interface ResultsPreviewProps {
