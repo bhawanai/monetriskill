@@ -153,7 +153,6 @@ export function HeroSection() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.7 + i * 0.06, duration: 0.4 }}
                 whileHover={{ scale: 1.06, borderColor: "rgba(139,92,246,0.4)", backgroundColor: "rgba(139,92,246,0.08)" }}
-                animate-continuous={{ y: [0, -3, 0] }}
                 className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/[0.03] border border-white/8 transition-all cursor-default"
               >
                 <Icon name={icon} size={13} className="text-white/30" strokeWidth={1.5} />
